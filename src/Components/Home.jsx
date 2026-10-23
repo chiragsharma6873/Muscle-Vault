@@ -34,9 +34,7 @@ const Home = () => {
       ref={containerRef}
       className="relative flex h-screen w-full items-end justify-center overflow-hidden bg-black"
     >
-      {/* ================= BACKGROUND VIDEO ================= */}
-
-      <video
+ <video
         className="absolute inset-0 z-0 h-full w-full object-cover"
         src="https://www.pexels.com/download/video/34668838/"
         autoPlay
@@ -46,11 +44,11 @@ const Home = () => {
         preload="metadata"
       />
 
-      {/* ================= DARK OVERLAY ================= */}
+    
 
       <div className="absolute inset-0 z-10 bg-black/40" />
 
-      {/* ================= HERO CONTENT ================= */}
+   
 
       <div className="relative z-20 flex w-full flex-col items-center justify-center px-6 pb-20 text-center text-white">
         {/* Heading */}
